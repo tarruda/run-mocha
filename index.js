@@ -21,7 +21,7 @@ function runMocha(tests) {
       }
     } else {
       var suite = function() {
-        return run(v);
+        return runMocha(v);
       };
       if (k.match(/^only:/)) {
         describe.only(k, suite);
