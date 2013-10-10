@@ -1,23 +1,23 @@
 {
-  "name": "mocha-run",
+  "name": "run-mocha",
   "description": "Function that converts an object into a mocha suite. Useful for sharing tests with the browser that use an 'export' like interface",
-  "version": "0.0.1",
-  "homepage": "https://github.com/tarruda/mocha-run",
+  "version": "0.0.0",
+  "homepage": "https://github.com/tarruda/run-mocha",
   "author": {
     "name": "Thiago de Arruda",
     "email": "tpadilha84@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tarruda/mocha-run.git"
+    "url": "git://github.com/tarruda/run-mocha.git"
   },
   "bugs": {
-    "url": "https://github.com/tarruda/mocha-run/issues"
+    "url": "https://github.com/tarruda/run-mocha/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/tarruda/mocha-run/blob/master/LICENSE-MIT"
+      "url": "https://github.com/tarruda/run-mocha/blob/master/LICENSE-MIT"
     }
   ],
   "main": "./index",

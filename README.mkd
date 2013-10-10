@@ -1,11 +1,11 @@
-# mocha-run
+# run-mocha
 
 > Function that converts an object into a mocha suite. Useful for sharing tests with the browser that use an 'export' like interface
 
 ## Installation
 
 ```sh
-npm install --save mocha-run
+npm install --save run-mocha
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save mocha-run
 Clone, install dependencies and re-test whenever some file is modified:
 
 ```sh
-git clone git://github.com/tarruda/mocha-run.git
-cd mocha-run
+git clone git://github.com/tarruda/run-mocha.git
+cd run-mocha
 npm install
 grunt
 ```
