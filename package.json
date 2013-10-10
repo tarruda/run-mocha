@@ -1,7 +1,7 @@
 {
   "name": "run-mocha",
   "description": "Function that converts an object into a mocha suite. Useful for sharing tests with the browser that use an 'export' like interface",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/tarruda/run-mocha",
   "author": {
     "name": "Thiago de Arruda",
