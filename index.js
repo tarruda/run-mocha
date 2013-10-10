@@ -1,4 +1,4 @@
-function mochaRun(tests) {
+function runMocha(tests) {
   for (var k in tests) {
     var v = tests[k];
     if (typeof v === 'function') {
@@ -35,9 +35,9 @@ function mochaRun(tests) {
 }
 
 if (typeof global !== 'undefined') {
-  global.mochaRun = mochaRun;
+  global.runMocha = runMocha;
 }
 
 if (typeof window !== 'undefined') {
-  window.mochaRun = mochaRun;
+  window.runMocha = runMocha;
 }
